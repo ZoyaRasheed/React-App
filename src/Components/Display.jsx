@@ -6,7 +6,7 @@ function Display() {
   return (
     <div>
      <p>Count is {count}</p>
-     <Button setcount={setcount} /> 
+     <Button setcount={setcount}/> 
     </div>
   )
 }
