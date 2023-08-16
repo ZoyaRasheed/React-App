@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import Display from './Display'
 import Form from './Form'
+import Cards from './Cards';
 
 const containerStyle = {
   display: 'flex',
@@ -69,7 +70,7 @@ function Home() {
         <button type="submit" style={buttonStyle}>Submit</button>
       </form>
      {form && <Form name={fname} email={email} />}
-   
+       <Cards />
     </div>
   )
 }
